@@ -5,15 +5,15 @@
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "3271585006",
+    "hash" : "0",
     "id" : "1DE3CC18",
-    "lastKnownWriteTime" : 1582842203,
-    "last_content_update" : 1582842203934,
+    "lastKnownWriteTime" : 1582842844,
+    "last_content_update" : 1582842844382,
     "path" : "~/School Folders/cs424/project2/app.R",
     "project_path" : "app.R",
     "properties" : {
-        "cursorPosition" : "32,0",
-        "scrollLine" : "5"
+        "cursorPosition" : "15,45",
+        "scrollLine" : "1"
     },
     "read_only" : false,
     "read_only_alternatives" : [
