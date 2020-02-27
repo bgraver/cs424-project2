@@ -13,7 +13,7 @@ library(shiny)
 ui <- fluidPage(
 
     # Application title
-    titlePanel("Making sure the branch exists"),
+    titlePanel("Project 2"),
 # 
 #     # Sidebar with a slider input for number of bins 
 #     sidebarLayout(
