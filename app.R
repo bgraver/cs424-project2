@@ -112,7 +112,7 @@ server <- function(input, output) {
         # m
         leaflet(hurdata) %>% 
           addTiles() %>% 
-          # addPolylines(lng = ~newlon, lat = ~newlat, color = "red", opacity = 0.25, weight = 1) %>%
+          addPolylines(lng = ~newlon, lat = ~newlat, color = "red", opacity = 0.25, weight = 1) %>%
           addCircles(lng = ~newlon, lat = ~newlat, weight = 1,
                      radius = ~sqrt(maxWindSpeed) * 1750, color = ~pal(name),
                      
