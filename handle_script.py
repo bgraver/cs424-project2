@@ -25,7 +25,7 @@ with open(filename, 'r') as f:
         if len(l) is 4:  # its new tornado
             tornado = l
         else:
-            send_line = "{0},{1},{2},{3}\n".format(line.strip("\n"), tornado[0], tornado[1], tornado[2])
+            send_line = "{0},{1},{2}\n".format(line.strip("\n"), tornado[0], tornado[1])
             new_f.write(send_line)
 f.close()
 
@@ -36,7 +36,7 @@ with open(filename2, 'r') as f:
         if len(l) is 4:  # its new tornado
             tornado = l
         else:
-            send_line = "{0},{1},{2},{3}\n".format(line.strip("\n"), tornado[0], tornado[1], tornado[2])
+            send_line = "{0},{1},{2}\n".format(line.strip("\n"), tornado[0], tornado[1])
             new_f2.write(send_line)
 f.close()
 
